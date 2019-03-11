@@ -226,7 +226,6 @@ for i in range(events):
 import dask
 import timeit
 import time
-
 from dask import delayed
 
 main = delayed(main)
